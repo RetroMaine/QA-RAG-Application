@@ -221,7 +221,7 @@ This kind of repo is exactly what you’d showcase to recruiters to highlight yo
    * **Gemini API Key** (replace with your real key):
 
      ```bash
-     export GEMINI_API_KEY="AIzaSyDEQrNa3PI3yFY_PrRm3hXadoB3KesnboA"
+     export GEMINI_API_KEY=""
      ```
    * On Windows (PowerShell):
 
