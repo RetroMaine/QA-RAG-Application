@@ -27,7 +27,7 @@ This repository contains a minimal-but-robust example of a **RAG (Retrieval-Augm
 3. **Embeds** each chunk into a vector database (Chroma) using a lightweight HuggingFace model.
 4. **Retrieves** the top-K most relevant chunks for any user query.
 5. **Generates** a natural-language answer by sending the retrieved context + question to Google’s Gemini LLM.
-6. **Exposes** everything via a Streamlit “dashboard” so end-users (or recruiters/technical reviewers) can upload a PDF, wait a few seconds for embeddings, then ask questions in plain English.
+6. **Exposes** everything via a Streamlit “dashboard” so end-users can upload a PDF, wait a few seconds for embeddings, then ask questions in plain English.
 
 By the end of this project, you can demonstrate:
 
@@ -37,8 +37,6 @@ By the end of this project, you can demonstrate:
 * Prompt‐engineering style: combining “retrieved context” + “user question.”
 * Calling a modern LLM (“gemini-2.0-flash”) via the `google-generativeai` SDK.
 * A basic but practical **Streamlit** frontend for PDF upload + Q\&A.
-
-This kind of repo is exactly what you’d showcase to recruiters to highlight your end-to-end AI/ML + software‐engineering chops: data‐ingestion, LLM integration, vector DBs, and a user-friendly interface.
 
 ---
 
@@ -424,11 +422,9 @@ This project is released under the [MIT License](LICENSE). Feel free to copy, mo
 
 ---
 
-**Congratulations!** You now have a fully functional RAG system that demonstrates:
+Fully functional RAG system that demonstrates:
 
 * Handling PDF-to-vector workflows
 * Vector similarity search
 * LLM integration (Gemini)
 * A user-friendly React-style UI (Streamlit)
-
-Feel free to point any recruiter or collaborator to this repo to showcase your ability to build end-to-end AI applications in Python.
